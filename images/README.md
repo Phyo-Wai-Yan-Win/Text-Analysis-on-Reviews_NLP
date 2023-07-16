@@ -1,0 +1,11 @@
+This directory contains images.<img width="686" alt="DataFrame" src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/8bdc0571-0e0d-4798-8a5f-096129e408f2">
+![Uploading WordCloud_UT_P.png…]()
+![WordCloud_UT_N](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/7df7f960-f35a-44fd-bf04-941c3110fcf9)
+![WordCloud_MSU_P](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/29cd7e50-b721-4f28-b0c2-30a203cd7af4)
+![WordCloud_MSU_N](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/2c53b685-57f1-4ab5-bf02-7e001ec6235c)
+![TopWords_UT](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/d02c84aa-74d4-48b3-aeb3-c30234112f45)
+![TopWords_MSU](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/4f4746c3-9b18-40ab-ad79-08dca6e4576b)
+![Sentiment_UT](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/f633ce4d-a3c8-4937-9f67-7161edcd6804)
+![Sentiment_MSU](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/f9f96296-0da9-4aab-9355-e6ca4c7c78d0)
+![Biased](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/8d159182-637b-410f-a5e6-893132fe7ad9)
+![Balanced](https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/54370b77-1633-4fab-bd14-801aacca8fa3)
