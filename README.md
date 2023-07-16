@@ -46,15 +46,17 @@ The project is divided into several Python scripts:
 To run the code, open each Python script in PyCharm or any Python IDE and execute them. Ensure that all necessary libraries are installed in your environment.
 ### Output Screenshots
 The README includes several screenshots from the project to provide a visual understanding of the insights that can be extracted:
+
 <table>
   <tr>
-    <td valign="top"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/f9f96296-0da9-4aab-9355-e6ca4c7c78d0" alt="Sentiment_MSU"></td>
-    <td rowspan="2"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/4f4746c3-9b18-40ab-ad79-08dca6e4576b" alt="TopWords_MSU"></td>
+    <td valign="top"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/537e2192-b298-4370-a45b-38abd059486e" alt="Sentiment_MSU"></td>
+    <td rowspan="2"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/55f841d2-976f-4209-ad14-958d89b52ab7" alt="TopWords_MSU"></td>
   </tr>
   <tr>
-     <td valign="top"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/29cd7e50-b721-4f28-b0c2-30a203cd7af4" alt="WordCloud_MSU_P"></td>
+     <td valign="top"><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/6cdcc898-cc90-43de-b3a6-964d41bc3837" alt="WordCloud_MSU_P"></td>
   </tr>
 </table>
+
 
 
 These screenshots provide a glimpse of the visual insights that can be gained from the analysis.
