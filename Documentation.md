@@ -17,8 +17,9 @@ Finally, the scrape_reviews function combines all the reviews into a DataFrame a
 In the usage section, we scrape specific ratings (1 to 5) for MSU and UT, and the top reviews (which form a biased sample) for UT. These data are saved as 'MSU_reviews.csv', 'UT_reviews.csv', and 'Biased_samples.csv' respectively.
 
 <div align="center">
-  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/8bdc0571-0e0d-4798-8a5f-096129e408f2" width="70%" alt="Image">
+  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/d69b9618-8266-4958-892a-ccd09bf7d272" width="70%" alt="Image">
 </div>
+
 
 ## Model building & Analysis (Analyze_MSU.py & Analyze_UT.py)
 The provided code performs text analysis on two sets of review data from two universities: Midwestern State University (MSU) and University of Texas at Austin (UT). The analysis includes sentiment analysis, category-wise sentiment scores, topic modeling, and keyword extraction. Here's a step-by-step explanation of each part of the code.
@@ -65,11 +66,11 @@ The reviews are grouped by categories, and the average sentiment score for each 
 The sentiment scores by category are also visualized using a bar plot.
 
 <div align="center">
-  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/f633ce4d-a3c8-4937-9f67-7161edcd6804" width="70%" alt="Sentiment_UT">
+  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/537e2192-b298-4370-a45b-38abd059486e" width="70%" alt="Sentiment_UT">
 </div>
 
 <div align="center">
-  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/f9f96296-0da9-4aab-9355-e6ca4c7c78d0" width="70%" alt="Sentiment_MSU">
+  <img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/537e2192-b298-4370-a45b-38abd059486e" width="70%" alt="Sentiment_MSU">
 </div>
 
 
@@ -80,12 +81,12 @@ Word clouds are also created for the top words in the most positive and most neg
 
 <table align="center">
   <tr>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/29cd7e50-b721-4f28-b0c2-30a203cd7af4" alt="WordCloud_MSU_P" width="400"></td>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/2c53b685-57f1-4ab5-bf02-7e001ec6235c" alt="WordCloud_MSU_N" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/6cdcc898-cc90-43de-b3a6-964d41bc3837" alt="WordCloud_MSU_P" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/11c33477-f00c-4232-8502-85031a270dab" alt="WordCloud_MSU_N" width="400"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/446579cc-83b8-46c1-b4e6-2965b53342d5" alt="WordCloud_UT_P" width="400"></td>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/7df7f960-f35a-44fd-bf04-941c3110fcf9" alt="WordCloud_UT_N" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/ef7c7e75-eda3-4ee2-b3bd-c30493e1f1e2" alt="WordCloud_UT_P" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/9865adff-1ea3-401c-b28a-a1c4064f4da6" alt="WordCloud_UT_N" width="400"></td>
   </tr>
 </table>
 
@@ -103,10 +104,11 @@ This entire process is repeated for both datasets (MSU and UT).
 
 <table align="center">
   <tr>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/d02c84aa-74d4-48b3-aeb3-c30234112f45" alt="TopWords_UT" width="400"></td>
-    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/4f4746c3-9b18-40ab-ad79-08dca6e4576b" alt="TopWords_MSU" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/3b3da9f8-4a06-4072-bedd-2e0592945c54" alt="TopWords_UT" width="400"></td>
+    <td><img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/55f841d2-976f-4209-ad14-958d89b52ab7" alt="TopWords_MSU" width="400"></td>
   </tr>
 </table>
+
 
 ## Sentiment_Prediction.py
 
@@ -122,7 +124,8 @@ In addition, the script uses the trained model to predict sentiments for a new s
 | Macro Avg    | 0.83      | 0.79   | 0.79     | 100     |
 | Weighted Avg | 0.82      | 0.80   | 0.79     | 100     |
 
-<img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/54370b77-1633-4fab-bd14-801aacca8fa3" alt="Balanced" width="400">
+<img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/e8e2cd84-d8dd-4ec1-aa86-2abebfc74eb0" alt="Balanced" width="300">
+
 
 ## Biased_Prediction.py
 
@@ -140,7 +143,8 @@ When the model is used to predict sentiments for the same set of artificially ge
 | Macro Avg    | 0.96      | 0.50   | 0.48     | 100     |
 | Weighted Avg | 0.92      | 0.91   | 0.87     | 100     |
 
-<img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/8d159182-637b-410f-a5e6-893132fe7ad9" alt="Biased" width="400">
+<img src="https://github.com/Phyo-Wai-Yan-Win/Text-Analysis-on-Reviews_NLP/assets/132968939/16e62d4d-9d6e-4259-8821-158e6c377a70" alt="Biased" width="300">
+
 
 ## Conclusion
 This document has provided a comprehensive guide to the 'Text Analysis on University Reviews' project, covering everything from the data collection stage to sentiment prediction. We hope this documentation is helpful for understanding the project and its results.
